@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,900;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css">
+    <script src="https://kit.fontawesome.com/ba4ece8b89.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Energy Lion</title>
+</head>
+<body>
+    <div class="container">
+    <header class="menu">
+        <div class="menu__wrapper">
+            <a href="./index.html"> <img class="menu__logo" src="./images/logo.svg" alt="logo"></a> 
+            <nav class="menu__navbar">
+                <a class="menu__navbar" href="#">INÍCIO</a>
+                <a href="#produtos">PRODUTOS</a>
+                <a class="newsletter__underline" href="#newsletter">NEWSLETTER</a>
+            </nav>
+            <a href="./index.html"><img class="menu__logo__user" src="./images/user.svg" alt="user"></a> 
+            <nav class="menu__navbar__mobile">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fa-sharp fa-solid fa-bars"></i>
+                </label>
+                <ul>
+                    <li><a href="./index.html">INICIO</a></li>
+                    <li><a href="./index.html">PRODUTOS</a></li>
+                    <li><a href="./index.html">NEWSLETTER</a></li>
+                </ul>
+                <a href="./index.html"> <img class="menu__logo__mobile" src="./images/logo.svg" alt="logo"></a>
+                <a href="./index.html"> <img class="menu__user__mobile" src="./images/user.svg" alt="user"></a> 
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="banner__main">
+            <div class="energy__lion">
+                <img src="./images/lata_fundo.svg" alt="lata">
+            </div>
+            <div class="content__energy__lion">
+                <p>A força que você precisa  dentro de uma LATA.</p>
+            </div>
+            <div class="btn__products">
+              <a href="#">Produtos</a>
+            </div>
+            <div class="btn__company">
+                <a href="#">Empresa</a>
+              </div>
+        </section>
+        <div class="container__video">
+            <video class="video" autoplay loop muted>  
+                <source src="./videos/video.mov" type="video/mp4">
+            </video>
+        </div>
+        <section class="banner__products">
+            <div class="banner__products__text">
+                <p class="text__energy">ENERGY <span id="produtos">LION</span></p>
+                <hr>
+                <H1>Vitaliza mente e corpo</H1>
+                <p class="text__content">Energy Lion é uma bebida funcional <br> que te dá forças sempre que <br> você precisa.</p>
+            </div>
+            <div class="banner__products__img">
+                <div>
+                    <img class="products__img" src="./images/img_products_1.svg" alt="lata">
+                </div>
+                <div>
+                    <img class="products__img" src="./images/img_products_2.svg" alt="lata">
+                </div>
+                <div>
+                    <img class="products__img" src="./images/img_products_3.svg" alt="lata">
+                </div>
+            </div>
+        </section>
+        <section class="banner__nutrition">
+            <div class="image__lata">
+                <img class="img__nutrition" src="./images/img_lata_nutrition.svg" alt="lata">
+            </div>
+            <div class="card__nutrition">
+                <p class="tittle__lata">DENTRO DA LATA</p>
+            </div>   
+            <div>
+                <hr class="line__nutrition">
+            </div>
+            <div>
+                <ul class="list">
+                    <li class="list__nutrition">Cafeína</li>
+                    <hr>
+                    <li class="list__nutrition">Vitaminas do Grupo B6</li>
+                    <hr>
+                    <li class="list__nutrition">Açúcares</li>
+                    <hr>
+                    <li class="list__nutrition">Taurina</li>
+                    <hr>
+                    <li class="list__nutrition">Água</li>
+                </ul>
+            </div>
+            <div class="btn__nutrition">
+                <a href="#">Saiba Mais</a>
+            </div>
+        </section>
+        <section class="about__energy">
+            <div class="tittle__about">
+                <p>Mais Sobre a Energy Lion</p>
+            </div>
+            <div class="cards__about__image">
+                <div class="card__img__shop">
+                    <img class="img__about" src="./images/about__shop.svg" alt="shopping energ lion">
+                    <div class="link__shop">
+                        <a href="#">www.energylionshop.com.br</a>
+                    </div>
+                </div>
+                <div class="card__img__about">
+                    <img class="img__about" src="./images/about__lion.svg" alt="quem somos">
+                    <div class="link__quemsomos">
+                        <a href="#">www.energylionshop/quemsomos</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="newsletter">
+            <div class="container__newsletter">
+                <img class="email" src="./images/icon_email.svg" alt="icone email">
+                <p class="tittle__newsletter">RECEBA AS <span id="newsletter">NOVIDADES</span> DA ENERGY LION</p>
+                <p class="text__newsletter">Cadastre-se e seja um dos primeiros a saber <br> todas as novidades e ofertas.</p>
+                <div class="container__email">
+                    <label>E-mail</label>
+                    <input type="Email" nome="Email" id="email">
+                    <input class="submit" name="submit" type="submit" value="CADASTRA-SE">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container__footer">
+            <div class="container__text__footer">
+                <a href="#"><p>Produtos e Companhia</p></a>
+                <a href="#"><p>Fale Conosco</p></a>
+                <a href="#"><p>Imprensa</p></a>
+                <a href="#"><p>Loja</p></a>
+                <a href="#"><p>Política de Privacidade</p></a>
+                <a href="#"><p>Termos de Uso</p></a>
+                <a href="#"><p>Marca</p></a>
+            </div>
+            <div class="img__footer">
+                <img src="./images/img_footer.svg" alt="imagem logo footer">
+            </div>
+            <div class="icons__redes">
+                <a href="www.instagram.com"> <img class="icons" src="./images/logo_instagram.svg" alt="instagram"> </a>
+                <a href="www.facebook.com"> <img class="icons" src="./images/logo_facebook.svg" alt="facebook"> </a>
+                <a href="www.twitter.com"> <img class="icons" src="./images/logo_twitter.svg" alt="twitter"> </a>
+                <a href="#">  <img class="icons" src="./images/logo_linkdin.svg" alt="linkdin"> </a>
+            </div>
+
+        </div>
+    </footer>
+    </div>
+</body>
+</html>
