@@ -250,7 +250,7 @@ main{
         filter: drop-shadow(13.0525px 5.71048px 29.3682px rgba(0, 0, 0, 0.25));
     }
 
-    .tittle__lata{
+    .title__lata{
         display: flex;
         position: absolute;
         text-align: center;
@@ -664,23 +664,32 @@ main{
         display: flex;
         margin-top: 100px;
         margin-bottom: 50px;
-        justify-content: none;
         flex-direction: column;
         align-items: center;
         height: 889px;
-        background: linear-gradient(180deg, #487CB3 4.44%, rgba(97, 249, 158, 0.79) 100.37%);background: #487CB2;
+        background: linear-gradient(180deg, #1b5ea5 1.43%, #00F6FF 100.37%);
+        background-size: 100% 500%; 
+        animation: degrade-gradient 5s infinite alternate ;
+    }
+    @keyframes degrade-gradient {
+        0%{
+            background-position-y: 0%;
+        }
+        100%{
+            background-position-y: 100%;
+        }
+        
     }
 
     .image__lata{
         display: flex;
         position: absolute;
-        width: 200px;
         height: 300px; 
         margin-top: 543px;
     }
 
     
-    .tittle__lata{
+    .title__lata{
         display: flex;
         position: none;
         text-align: center;
@@ -688,7 +697,7 @@ main{
         margin-top: 42px;
         letter-spacing: 0.035em;
         color: #FFFFFF;
-        font-size: 18px;
+        font-size: 22px;
         font-weight: 700;
     }
 
@@ -712,7 +721,7 @@ main{
         background-color: #487CB2;
             & > .list__nutrition{
                 margin:15px 0;
-                font-size: 10px;
+                font-size: 16px;
                 color: #FFFFFF;
                 font-weight: 700;
             }
@@ -892,7 +901,7 @@ main{
             position: absolute;
             width: 350px;
             top: 275px; 
-            left: 5px;       
+            right:29px;     
         }
     }
 }
